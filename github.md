@@ -49,3 +49,11 @@ git branch
 ```shell
 git switch branch_name
 ```
+- commit and push the updated changes onto the remote repository
+```shell
+git push remote branch_name
+```
+- to apply the changes to your local repository as well. pull the updated branch from the remote repository
+```shell
+
+```
