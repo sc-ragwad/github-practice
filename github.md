@@ -55,5 +55,15 @@ git push remote branch_name
 ```
 - to apply the changes to your local repository as well. pull the updated branch from the remote repository
 ```shell
-
+git pull
 ```
+- to see the changes and history
+```shell
+git show
+```
+- final step of the workflow is to delete the branch
+```shell
+git branch -d branch_name #deletes the branch locally
+git push --delete origin branch_name #deletes it remotely
+```
+---
