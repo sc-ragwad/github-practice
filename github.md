@@ -49,7 +49,7 @@ git branch
 ```shell
 git switch branch_name
 ```
-- push the updated changes onto the remote repository
+- commit and push the updated changes onto the remote repository
 ```shell
 git push remote branch_name
 ```
