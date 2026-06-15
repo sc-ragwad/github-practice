@@ -33,6 +33,8 @@ print(user)
 We can correctly validate if our data (float, int, NameEmail, Email etc.) is a valid input according to that field by importing the types and using them as the type while defining our model
 
 ```py
+# pip install "fastapi[standard]==0.136.3" "pydantic[email]==2.13.4
+
 from pydantic import BaseModel, EmailStr
 from fastapi import FastAPI
 
